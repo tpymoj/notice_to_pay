@@ -1,0 +1,27 @@
+.paper-block { display: flex; height: 700px; }
+.paper-left { width: 450px; }
+.paper-right { width: 250px; display: flex; flex-flow: column; }
+.paper-img { width: 450px; }
+.paper-circle-container { display: flex; position: relative; border: solid gray 4px; border-radius: 4px; cursor: pointer; transition: 0.25s; }
+.paper-circle-no { background-color: gray; color: white; font-size: 14px; width: 20px; display: flex; justify-content: center; align-items: center; transition: 0.25s; }
+.pcc-bc-c-r { background-color: red; }
+.pcc-br-c-r { border-color: red; }
+.paper-circle { width: 100%; }
+.paper-circle-detail { border: solid gray; border-radius: 4px; cursor: pointer; transition: 0.25s; }
+.paper-detail-no { background-color: gray; color: white; font-size: 14px; border: solid gray; transition: 0.25s; }
+.pcd-bc-c-r { background-color: red; }
+.pcd-br-c-r { border-color: red; }
+#paper-circle-1 { top: -581px; left: 35px; width: 340px; height: 24px; }
+#paper-circle-2 { top: -465px; left: -7px; width: 256px; height: 15px; }
+#paper-circle-3 { top: -488px; left: 232px; width: 182px; height: 15px; }
+#paper-circle-4 { top: -494px; left: -7px; width: 421px; height: 15px; }
+#paper-circle-5 { top: -500px; left: -7px; width: 421px; height: 69px; }
+#paper-circle-6 { top: -507px; left: -7px; width: 201px; height: 48px; }
+#paper-circle-7 { top: -563px; left: 177px; width: 236px; height: 48px; }
+#paper-circle-8 { top: -569px; left: 248px; width: 165px; height: 144px; }
+#paper-circle-9 { top: -575px; width: 125px; }
+#paper-circle-10 { top: -623px; left: 113px; width: 73px; height: 56px; }
+#paper-circle-11 { top: -646px; left: -7px; width: 421px; height: 73px; }
+.paper-option-title { display: flex; height: 40px; cursor: pointer; justify-content: center; align-items: center;  }
+.paper-option-title:hover, .active { background-color: lightslategray;  }
+.paper-option-content { height: 500px; line-height: 30px; }
